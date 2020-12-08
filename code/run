@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -ex
-gfortran -ffree-form main.f90
+gfortran -ffree-form BEM_Krylov.f90
 ls -l
 ./a.out
 # This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
-echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run 'main.f90'."
+echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run 'BEM_Krylov.f90'."
 
 # The previous version of this file was commented-out and follows below:
 #
@@ -20,11 +20,11 @@ echo "Sorry, we couldn't automatically determine the right command for this file
 # #
 # # #!/usr/bin/env bash
 # # set -ex
-# # gfortran -ffree-form main.f95
+# # gfortran -ffree-form main.f90
 # # ls -l
 # # ./a.out
 # # # This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
-# # echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run 'main.f95'."
+# # echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run 'main.f90'."
 # # 
 # # # The previous version of this file was commented-out and follows below:
 # # #
@@ -44,7 +44,7 @@ echo "Sorry, we couldn't automatically determine the right command for this file
 # # # # ls -l
 # # # # ./a.out
 # # # # # This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
-# # # # echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run 'main.f90'."
+# # # # echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run 'main.f95'."
 # # # # 
 # # # # # The previous version of this file was commented-out and follows below:
 # # # # #
@@ -54,17 +54,15 @@ echo "Sorry, we couldn't automatically determine the right command for this file
 # # # # # ls -l
 # # # # # ./a.out
 # # # # # # This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
-# # # # # echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run 'BEM_Krylov.f90'."
+# # # # # echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run 'main.f90'."
 # # # # # 
 # # # # # # The previous version of this file was commented-out and follows below:
 # # # # # #
 # # # # # # #!/usr/bin/env bash
 # # # # # # set -ex
-# # # # # # 
-# # # # # # gfortran -ffree-form BEM_Krylov.f90
+# # # # # # gfortran -ffree-form main.f95
 # # # # # # ls -l
 # # # # # # ./a.out
-# # # # # # 
 # # # # # # # This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
 # # # # # # echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run 'BEM_Krylov.f90'."
 # # # # # # 
@@ -78,20 +76,33 @@ echo "Sorry, we couldn't automatically determine the right command for this file
 # # # # # # # ./a.out
 # # # # # # # 
 # # # # # # # # This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
-# # # # # # # echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run ''BEM Krylov.f90''."
+# # # # # # # echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run 'BEM_Krylov.f90'."
 # # # # # # # 
 # # # # # # # # The previous version of this file was commented-out and follows below:
 # # # # # # # #
 # # # # # # # # #!/usr/bin/env bash
 # # # # # # # # set -ex
 # # # # # # # # 
-# # # # # # # # gfortran -ffree-form BEM Krylo.f90
+# # # # # # # # gfortran -ffree-form BEM_Krylov.f90
 # # # # # # # # ls -l
 # # # # # # # # ./a.out
 # # # # # # # # 
-# # # # # # # # 
 # # # # # # # # # This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
 # # # # # # # # echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run ''BEM Krylov.f90''."
+# # # # # # # # 
+# # # # # # # # # The previous version of this file was commented-out and follows below:
+# # # # # # # # #
+# # # # # # # # # #!/usr/bin/env bash
+# # # # # # # # # set -ex
+# # # # # # # # # 
+# # # # # # # # # gfortran -ffree-form BEM Krylo.f90
+# # # # # # # # # ls -l
+# # # # # # # # # ./a.out
+# # # # # # # # # 
+# # # # # # # # # 
+# # # # # # # # # # This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
+# # # # # # # # # echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run ''BEM Krylov.f90''."
+# # # # # # # # # 
 # # # # # # # # 
 # # # # # # # 
 # # # # # # 

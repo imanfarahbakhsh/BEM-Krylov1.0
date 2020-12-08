@@ -412,7 +412,7 @@ IMPLICIT NONE
 INTEGER                :: K
 REAL(8),DIMENSION(INN) :: XIN,YIN,UIN
 !------------------------------------------------------------------------------
-OPEN (UNIT=2,FILE="OUTPUTFILE.PLT")     ! Open the output file
+OPEN (UNIT=2,FILE="/results/OUTPUTFILE.PLT")     ! Open the output file
 WRITE (2,*)'VARIABLES=X,Y,U'
 WRITE (2,*)'ZONE'
 WRITE (2,*)'F=POINT'
@@ -543,10 +543,10 @@ SUBROUTINE SUCCESSIVE_SOL (METHOD,ERR,ITER)
 IMPLICIT NONE
 INTEGER                             :: ITER
 CHARACTER(*)                        :: METHOD
-CHARACTER*25                        :: FNAME
+CHARACTER*30                        :: FNAME
 REAL(8)                             :: ERR
 !------------------------------------------------------------------------------
-FNAME="CONV-"//METHOD//".PLT"
+FNAME="/results/CONV-"//METHOD//".PLT"
 !------------------------------------------------------------------------------
 OPEN(3,FILE=FNAME)
 WRITE(3,*) ITER,ERR
