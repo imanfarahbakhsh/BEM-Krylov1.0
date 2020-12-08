@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -ex
-gfortran -ffree-form main.f90
+gfortran -ffree-form main.f95
 ls -l
 ./a.out
 # This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
