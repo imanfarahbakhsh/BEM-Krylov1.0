@@ -1,6 +1,7 @@
 
 
 program main
-print*, "Hello"
+open(1,file="/results/output.txt")
+write(1,*) "Hello"
 
 end program main
