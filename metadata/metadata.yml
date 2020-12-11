@@ -1,5 +1,5 @@
 metadata_version: 1
-name: BEM-Krylov
+name: 'BEM-Krylov: An open source software package for solving the Laplace’s equation with boundary element method based on the Krylov subspace methods'
 description: |-
   Solving the linear system of equations with nonsymmetric, dense, and typically ill-conditioned
   matrices can be viewed as a key subject in BEM. Applying direct methods like Gauss elimination,
@@ -13,7 +13,8 @@ tags:
 - Krylov subspace methods
 - Conjugate Gradient Squared Method
 - Bi Conjugate Gradient Method
-- Bi Conjugate Gradient Squared Method
+- Bi Conjugate Gradient Stabilized
+- GMRES
 authors:
 - name: Iman Farahbakhsh
   affiliations:
