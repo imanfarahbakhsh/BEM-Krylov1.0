@@ -3,7 +3,6 @@ set -ex
 gfortran -ffree-form BEM_Krylov.f90
 ls -l
 ./a.out
-# This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
-echo "Sorry, we couldn't automatically determine the right command for this file type. Please replace this line with a command to run 'BEM_Krylov.f90'."
+
 
 
